@@ -1,0 +1,15 @@
+{
+  "name": "organizational-hierarchy-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recursive solutions for the Organizational Hierarchy Analysis programming assignment",
+  "scripts": {
+    "test": "tsx organizational-hierarchy.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
