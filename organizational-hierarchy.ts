@@ -178,6 +178,8 @@ if (typeof require !== "undefined" && require.main === module) {
   });
   assert.equal(calculateTeamSalary(employees, 1), 1490000);
   assert.equal(calculateTeamSalary(employees, 4), 505000);
+  assert.equal(calculateTeamSalary(employees, 7), 170000);
+  assert.equal(calculateTeamSalary(employees, 12), 50000);
   assert.equal(calculateTeamSalary(employees, 999), 0);
   console.log("All assignment example checks passed.");
 }
